@@ -24,7 +24,7 @@ public class RevertHaspMapStrInt {
 
         HashMap<String, Integer> map3 = new HashMap<>();
         // entrySet в мапу кладешь комбинацию ключа и значения из entrySet можешь вызвать get Kie и get Value
-        for (Map.Entry<Integer, String> e : map.entrySet()){ //for(<Integer, String> name : names) { sout("name") }
+        for (Map.Entry<Integer, String> e : map.entrySet()){      //for(<Integer, String> name : names) { sout("name") }
             map3.put(e.getValue(), e.getKey());    }
         System.out.println(map3); }
 }
